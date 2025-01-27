@@ -1,0 +1,377 @@
+#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+@ed_file=File
+@ed_new=New...
+@ed_open=Open...
+@ed_open_ttip=Open
+@ed_save=Save
+@ed_save_ttip=Save
+@ed_run=Play map
+@ed_exit=Quit editor
+@ed_toggle=Toggle editor
+@ed_edit=Edit
+@ed_publish=Publish to Workshop
+
+@ed_too_may_entities_err=The map has too many objects,\n try removing some of them.\n (maximum allowed is %d, for best performance keep under 4000, see Map Stats)
+
+@ed_mapsettings=Map settings...
+@ed_mapsettings_ttip=Change the current map's settings
+@ed_mapsettings_mapname=Map name
+@ed_mapsettings_mapname_ttip=The map name uniquely identifies this map in the Workshop.\nChanging the name will result in a separate/new item to be added to Workshop (you need to delete the old one).\nKeeping the same name will update the already existing map.
+@ed_mapsettings_xmlname=XML name
+@ed_mapsettings_mapwidth=Map width (meters)
+@ed_mapsettings_mapheight=Map height (meters)
+@ed_mapsettings_mapscenario=Map scenario
+@ed_mapsettings_challenges=Challenges
+@ed_mapsettings_othersettings=Other settings
+@ed_mapsettings_othersettings_wintime=Clock Race reference time (msec)
+@ed_mapsettings_othersettings_novisualintel=No visual intel
+@ed_mapsettings_briefinginfo=Briefing info
+@ed_mapsettings_briefinginfo_knownhostiles=Known hostiles
+@ed_mapsettings_briefinginfo_uncertainhostiles=Uncertain hostiles
+@ed_mapsettings_briefinginfo_knownhostages=Known hostages
+@ed_mapsettings_briefinginfo_arrestwarrants=Arrest warrants
+@ed_mapsettings_showfolder=Show in folder
+@ed_mapsettings_changenotes=Change notes
+@ed_mapsettings_author=Author
+@ed_mapsettings_nightmission=Night Mission
+@ed_mapsettings_description=Description
+
+@ed_workshop_publish_dialog_title=Publish map
+@ed_workshop_update_dialog_title=Update map
+@ed_workshop_publishing=Publishing map...
+@ed_workshop_updating=Updating map...
+@ed_workshop_publish_success=Map published!
+@ed_workshop_publish_success_eula=Map published! You need to accept\n the Workshop EULA before it becomes visible.
+@ed_workshop_publish_fail=Failed to publish the map,\n please try again.
+@ed_workshop_update_success=Map updated!
+@ed_workshop_update_success_eula=Map updated! You need to accept\n the Workshop EULA before it becomes visible.
+@ed_workshop_update_fail=Failed to update the map,\n please try again.
+@ed_workshop_unreachable=Workshop server not responding,\n please try again.
+@ed_workshop_publish=Publish
+@ed_workshop_update=Update
+
+#these will be comma-separated, so don't add any commas
+#   each of them have hard-coded equivalents in code and in Steam Workshop, changing them here only affects how they're seen in the editor, but not in workshop
+@ed_maptag_tags=Tags
+@ed_maptag_night=Night
+@ed_maptag_size_s=Tiny
+@ed_maptag_size_m=Medium
+@ed_maptag_size_l=Large
+@ed_maptag_size_xl=X-Large
+@ed_maptag_type_clear=Clear Hostiles
+@ed_maptag_type_hostage=Hostage Rescue
+@ed_maptag_type_bomb_defusal=Bomb Defusal
+@ed_maptag_type_abduction=Abduction
+@ed_maptag_type_execution=Execution
+@ed_maptag_type_vip_rescue=VIP Rescue
+@ed_maptag_type_raid=Raid
+@ed_maptag_type_qrf=QRF
+@ed_maptag_deploy_1=Single Trooper
+@ed_maptag_deploy_2_4=2-4 Troops
+@ed_maptag_deploy_5_8=5-8 Troops
+@ed_maptag_deploy_9plus=9+ Troops
+
+@ed_view=View
+@ed_toolbar=Toolbar
+@ed_grid_dec=Decrease grid size
+@ed_grid_dec_ttip=Decrease grid size
+@ed_grid_inc=Increase grid size
+@ed_grid_inc_ttip=Increase grid size
+@ed_grid_snap=Snap
+@ed_grid_snap_ttip=Snap to grid (toggle)
+@ed_grid_show=Show
+@ed_grid_show_ttip=Show grid (toggle)
+@ed_grid=Grid:
+@ed_show_walkable=Show unreachable areas (toggle)
+@ed_show_collisions=Show collisions (toggle)
+@ed_toggle_cc=Color Correction / NVG visuals (toggle)
+@ed_hide_layers=Show layers bar (toggle)
+@ed_paste_grouped=Group up copy-pasted objects (toggle)
+@ed_selection_mode=Selection mode
+@ed_selection_mode_box=Box
+@ed_selection_mode_origin=Origin
+@ed_targets_mode=Target lines
+@ed_targets_mode_alts=Alt. spawns
+@ed_targets_mode_others=Others
+@ed_select=Select
+@ed_select_single=Select single
+@ed_select_ttip=Selection tool
+@ed_select_parent=Select parent
+@ed_deselect_single=Deselect single
+@ed_undo=Undo
+@ed_redo=Redo
+@ed_copy=Copy
+@ed_paste=Paste
+@ed_brushestool=Paint
+@ed_brushestool_ttip=Paint floors
+@ed_soundefxtool=Sound EFX
+@ed_soundefxtool_ttip=Sound effects
+@ed_particlestool=Particle Editor
+@ed_particlestool_ttip=Edit particle systems
+@ed_mapgfxtool=GFX
+@ed_mapgfxtool_ttip=Map Graphics
+@ed_mapgentool=Map Gen
+@ed_mapgentool_ttip=Preview random maps
+@ed_rotate90=Rotate map 90°
+@ed_rotate180=Rotate map 180°
+@ed_rotate270=Rotate map 270°
+@ed_ok=OK
+@ed_cancel=Cancel
+@ed_info=Info
+@ed_name=Name
+@ed_prefab_create_success=Prefab created sucessfully
+@ed_prefab_create=Create prefab
+@ed_zoom=Zoom
+@ed_entities_showing=Showing %d of %d entities
+@ed_entities_hidden=(%d hidden by filter)
+@ed_entities_selection_do=Do with selection:
+@ed_entities_prefab_create=Create prefab
+@ed_entities_prefab_delete=Delete prefab
+@ed_entities_group=Group
+@ed_entities_ungroup=Ungroup
+@ed_entities_remove_from_group=Remove from group
+@ed_wall_split=Split wall at selected node
+@ed_wall_smooth=Smooth (incomplete/testing, works only for non-branching walls)
+@ed_hotkey=Hotkey
+@ed_delete=Delete
+@ed_delete_node=Delete node
+@ed_search=Search
+@ed_clear_search=Clear search
+@ed_rotation=Rotation
+@ed_rotation_ttip=Click & drag to rotate\nShortcuts:\nRotate 5 degrees on Y: Shift + Mouse wheel\nRotate 45 degrees around Y: Shift + Ctrl + Mouse wheel\nFor other axes also keep X/Z pressed while using the mouse wheel\nR - random rotation on Y axis
+@ed_rotation_reset=Reset rotation
+@ed_scale=Scale
+@ed_scale_ttip=Ctrl+Click to edit\nShortcut: CTRL + Mouse wheel
+@ed_tools=Tools
+@ed_options=Options
+@ed_canvas_only=Show canvas only
+@ed_canvas_only_ttip=Hotkey: Space
+@ed_layers=Layers
+@ed_layers_follows=Filter follows build category
+@ed_layers_hotkeytip=Tip: Hold shift for exclusive toggle.
+@ed_layers_set_current=Move selected entities to current EDIT layer
+@ed_filters=Filters
+@ed_addtarget=Add target
+@ed_targets=Targets
+@ed_addaltspawn=Add alternative spawn
+@ed_convertaltspawn=Convert alt. spawns into entities
+@ed_convertaltspawn_ttip=Change selected alternative spawns into actual entities, keeping targets and grouping
+@ed_copypoly=Copy shape from ...
+@ed_stats=Map Stats
+@ed_fonts=Fonts
+@ed_fonts_size=Size
+@ed_small=small
+@ed_medium=medium
+@ed_large=large
+
+@ed_panel_object=Objects
+@ed_panel_object_ttip=
+@ed_panel_decal=Decals
+@ed_panel_decal_ttip=
+@ed_panel_light=Lights
+@ed_panel_light_ttip=
+@ed_panel_house=Buildings
+@ed_panel_house_ttip=
+@ed_panel_human=Humans
+@ed_panel_human_ttip=
+@ed_panel_prefab=Prefabs
+@ed_panel_prefab_ttip=
+@ed_panel_sound=Sounds
+@ed_panel_sound_ttip=
+@ed_panel_gameplay=Gameplay
+@ed_panel_gameplay_ttip=
+@ed_panel_rmg=RMG
+@ed_panel_rmg_ttip=
+
+@ed_brushes_mode=Edit mode
+@ed_brushes_mode_height=Height
+@ed_brushes_mode_paint=Paint
+@ed_brushes_mode_pick=Pick
+@ed_brushes_mode_ttip=Left MB = Paint+ or Height+ (hold Alt) or Pick (hold Ctrl)\nRight MB = Paint- or Height- (hold Alt) or Pick (hold Ctrl)
+@ed_brushes_materials=Materials
+@ed_brushes_material_ttip=Quick select: Press 1/2/3/4\nShow context menu: Right MB
+@ed_brushes_shapes=Shapes
+@ed_brushes_brush=Brush
+@ed_brushes_opacity=Opacity
+@ed_brushes_spacing=Spacing
+@ed_brushes_size=Size
+@ed_brushes_size_ttip=Hotkey: Shift + Mouse wheel up/down\nHotkey: [ or ]
+@ed_brushes_replace_with=Replace with...
+@ed_brushes_add_material_ttip=Add material
+@ed_brushes_terrain_copied=Terrain was copied!\nYou can even paste it on other maps :)
+
+@ed_mapgfx_title=Map Graphics Settings
+@ed_mapgfx_fogcolor=Color
+@ed_mapgfx_fogdensity=Density
+@ed_mapgfx_fognew=Use new Fog
+@ed_mapgfx_windspeed=Wind Speed
+@ed_mapgfx_winddirection=Wind Direction
+@ed_mapgfx_waterclarity=Water Clarity
+@ed_mapgfx_clouddensity=Cloud Density
+@ed_mapgfx_terrainnormals=Normal Weight
+@ed_mapgfx_terrainsharpness=Blend Sharpness
+@ed_mapgfx_gossao=AO
+@ed_mapgfx_gossao_strength=Strength (objects)
+@ed_mapgfx_gossao_strengthterrain=Strength (terrain)
+@ed_mapgfx_gossao_directional=Directional occlusion
+@ed_mapgfx_gossao_levelsmin=Levels (min)
+@ed_mapgfx_rain=Rain
+@ed_mapgfx_enablesnow=Snow
+@ed_mapgfx_terrain=Terrain
+@ed_mapgfx_weather=Weather
+@ed_mapgfx_fog=Fog
+@ed_mapgfx_LUT=Color Correction
+
+@ed_properties_group=Group properties
+@ed_properties_basic=Base properties
+@ed_properties_light=Light properties
+@ed_properties_particle=Particle properties
+@ed_properties_decal=Decal properties
+@ed_properties_waypoints=Waypoints properties
+@ed_properties_traits=AI settings
+
+@ed_origin=Origin
+@ed_origin_ttip=Click & drag to move\nDouble click to edit\nShortcuts:\nArrow keys\nY + MouseWheel to change height
+@ed_autoheight=Auto Y
+@ed_autoheight_ttip=When moved, the entity is automatically placed above the object beneath it (on the Y axis)\nShortcut: toggle with Ctrl + Y
+@ed_noenveffects=Disable Snow
+@ed_noenveffects_ttip=GFX->Snow must be enabled to use this
+@ed_tooltip=Tooltip
+@ed_tooltip_ttip=Shows up when hovering this entity.\n Acts as description for some humans (Civilians, VIPs and troops that need rescuing).\n For Triggers, it shows up in the Editor as their name.
+
+@ed_effect=Effect
+@ed_preset=Preset
+
+@ed_particlesize=Size
+@ed_particlesize_ttip=Size of the spawn area. Only used for \"rect\" emitters. Blue box.
+@ed_particlelimits=Limits
+@ed_particlelimits_ttip=Just something to help visualize the size of the effect.\nYou have to set it manually. It doesn't do anything. Red box
+
+@ed_particletarget=Target
+
+@ed_lightradius=Radius
+@ed_lightangle=Angle
+@ed_lightintensity=Intensity
+@ed_lightindoors=Is for indoors
+@ed_lightlimittype=Limit
+@ed_lightlimits=Limit Box
+@ed_lightlimits_ttip=Right click for auto-set options.
+@ed_lightlimits_auto=Auto All
+@ed_lightlimits_left=Auto Left
+@ed_lightlimits_right=Auto Right
+@ed_lightlimits_up=Auto Up
+@ed_lightlimits_down=Auto Down
+@ed_lightlimits_none=None
+@ed_lightdisabled=Disabled
+@ed_lightanim=Animation
+@ed_lightanimtype=Type
+@ed_lightanimfreq=Frequency
+@ed_lightanimrnd=Random start time
+
+@ed_color=Color
+@ed_color_ttip=Hint: Right MB for color options.\nHint: Left MB for color picker.
+
+@ed_decalsize=Size
+
+@ed_rescueVIP=Needs Rescue
+@ed_rescueVIP_ttip=When checked this human will not be controllable until other friendly troopers come nearby
+@ed_human_deploymode=Deploy mode
+@ed_human_deploymode_ttip='auto' assumes playable troops are placed above a DeploySlot and will be customized before deploy.\n'always' will force-deploy that human as an ally, as specified in the editor, without using troops from your roster. 
+@ed_human_deploymode_auto=Deploy: auto
+@ed_human_deploymode_always=Deploy: always
+@ed_human_id_name=Name
+
+@ed_trait_aggressiveness=Aggressiveness
+@ed_trait_chanceToInvestigate=Chance To Investigate
+@ed_trait_chanceToPickupWeapon=Chance To Pickup Weapon
+@ed_trait_chanceToThrowGrenade=Chance To Throw Grenade
+@ed_trait_chanceToAmbush=Chance To Ambush
+@ed_trait_chanceToBlindFire=Chance To Blind Fire
+@ed_trait_investigateMaxDistance=Investigate max distance (meters)
+@ed_trait_execution_stoptime=Execution countdown (milliseconds)
+@ed_trait_hvt_escape_delay=Escape delay (milliseconds)
+@ed_trait_roamAround=Roams around
+@ed_trait_roamAround_ttip=Will roam around, interacting with the POI objects in range\nWhen on a patrol path they will look around the nearest patrol point for POI\nOnly when not alerted
+@ed_trait_roamRange=Roam Range
+@ed_trait_roamRange_ttip=Affects the area the human will look for POI objects to interact with\nCtrl+Click to type in a larger number
+
+@ed_sound_trg_when=When to play sound
+@ed_sound_trg_always=Always
+@ed_sound_trg_before=Play until combat starts
+@ed_sound_trg_after=Play after combat starts
+@ed_sound_trg_trigger=Only when triggered (by Triggers)
+@ed_sound_minattenuationdistance=Min attenuation distance
+@ed_sound_maxattenuationdistance=Max attenuation distance
+@ed_sound_count=Replay count
+@ed_sound_count_ttip=0 = loop infinitely, otherwise play the specified amount of times
+@ed_sound_volume=Volume
+@ed_sound_start_chance=Start chance %, re-evaluated each loop
+@ed_sound_chance_timer=Seconds between loops
+@ed_sound_chance_timer_ttip=If negative, it will overwrite the sound duration.
+@ed_sound_disable_fx=Disable effect zones
+@ed_sound_disable_fx_ttip=If disabled, sound is no longer modified by the Effect Zone it's placed into (usually used for far-away sounds and music)
+@ed_sound=Sound
+@ed_sound_ttip=Pick any sound from the game's sound library
+@ed_sound_category=Category
+@ed_sound_category_all=All
+@ed_sound_category_music=Music
+@ed_sound_category_game=Game
+@ed_sound_category_ambient=Ambient
+
+
+@ed_quit_nosave1=Map was not saved!
+@ed_quit_nosave2=Are you sure you want to exit without saving?
+
+@ed_sniper_firearm=Firearm
+@ed_sniper_distance=Distance
+@ed_sniper_fov=FOV
+
+@ed_enabled=Enabled
+
+@ed_waypoints_time_min=Wait Time Min (msec)
+@ed_waypoints_time_max=Wait Time Max (msec)
+@ed_waypoints_chance=Wait Chance
+@ed_waypoints_radius=Radius (m)
+
+@ed_timebomb_kaboomtime=Countdown time (sec)
+
+@ed_cannot_overwrite_stock_map=Cannot modify stock maps.\nFor that you need to copy them to the user folder.
+
+@ed_map_saved=MAP SAVED
+
+@ed_spawner_create_for_group=Create spawners from selection
+@ed_spawner_create_for_group_ttip=Helper tool for creating spawners for all selected entities + a trigger to activate them, allowing re-creation of the prefab at runtime
+@ed_spawner_entity=Spawn entity
+@ed_spawner_ttip=Will spawn the specified entity when targetted by a trigger
+@ed_spawner_select_to_clone=Click to select which entity to clone
+@ed_spawner_pick_clone=...or pick from entity library:
+
+
+@ed_dmgarea_info=-damage effect is applied when this entity is targetted by a Trigger entity\n-will only damage in-radius entities if line-of-sight is clear\n-will always apply damage to entities which are directly targetted\n-to destroy walls use Explosive (or greater) with damage >= 100\n    the radius for destroying walls is half of the specified radius
+@ed_dmgarea_type=Damage type
+@ed_dmgarea_type_ttip='Bullet' breaks glass and affects humans.\n'Grenade' breaks doors and small objects.\n'Explosive' destroys most objects.\n'Melee' is unused.\n'Destroy 100%%' will delete target and and spawn debris (if defined for that entity).\n'Delete' will delete target without consequences.
+@ed_dmgarea_damage=Damage
+@ed_dmgarea_ap=Armor penetration
+@ed_dmgarea_knockback=Knockback distance
+@ed_dmgarea_force=Physics force push
+@ed_dmgarea_suppression=Adjust suppression
+@ed_dmgarea_stun=Stun Time Milliseconds
+@ed_dmgarea_burn=Burn Time Milliseconds
+
+@ed_camerafocus_type=Focus type
+@ed_camerafocus_default=AUTO (move to location, zoom level is chosen as best fit by game)
+@ed_camerafocus_origin=TO ENTITY POSITION (camera tries to move to the entity's origin, as far as camera bounds allow)
+@ed_camerafocus_fit=FIT MAP (fit entire map on screen, default start view)
+
+@ed_crop_menu=Crop canvas to visible Terrain mask
+@ed_crop_warning=This will crop the map canvas to fit the specified Terrain mask, if it exists.\nThis operation is not reversible!\nAre you sure?
+
+@ed_save_thumb_menu=Save high-res map image
+@ed_save_thumb_ttip=Saves a clean image of the map (at the game's current resolution)
