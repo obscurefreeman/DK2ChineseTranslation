@@ -308,8 +308,8 @@
 @menu_game_smoke_none_ttip=烟雾弹已用完
 @menu_game_molotov_ttip=投掷燃烧瓶
 @menu_game_molotov_none_ttip=瓶子已用完
-@menu_game_slapcharge_ttip=放置小型炸药以炸开锁或窗户
-@menu_game_slapcharge_none_ttip=没有小型炸药了 :(
+@menu_game_slapcharge_ttip=放置粘性炸药以炸开锁或窗户
+@menu_game_slapcharge_none_ttip=没有粘性炸药了 :(
 @menu_game_doorcharge_ttip=安装破门炸药以炸开门
 @menu_game_doorcharge_none_ttip=口袋空了，伙计 :(
 @menu_game_democharges_ttip=安装爆破炸药
@@ -484,7 +484,7 @@
 @menu_m_genhouse_ttip=从现有地图生成，看起来更真实。
 @menu_m_genkillhouse_tip=完全随机的杀戮小屋，用于训练目的。
 @menu_m_stats_improved_result=新的个人最佳成绩！
-@menu_m_stats_elapsed=经过时间
+@menu_m_stats_elapsed=所用时间
 @menu_m_stats_elapsed_best=您的个人最佳成绩：
 @menu_m_stats_missions_completed=已完成的任务数
 @menu_m_stats_survived=存活的单位
