@@ -34,7 +34,7 @@
 #
 # UI from data/gui/campaign.xml
 #
-@menu_campaign_campaigns=战役
+@menu_campaign_campaigns=战役模式
 @menu_campaign_tod=服役期
 @menu_campaign_op=行动
 @menu_campaign_squad_locked_header=此小队已锁定\n在另一个战役中

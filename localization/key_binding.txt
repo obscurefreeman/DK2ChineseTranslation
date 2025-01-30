@@ -18,10 +18,10 @@
 @keybind_action_menu=动作菜单
 @keybind_action_menu_extra=%s (在路径/士兵上)
 @keybind_action_menu_ttip=(在路径/士兵上)
-@keybind_look_at=看向
+@keybind_look_at=视角方向
 @keybind_look_at_extra=%s (在路径/士兵上拖动)
 @keybind_look_at_ttip=(在路径/士兵上拖动)
-@keybind_look_at_pie=切片观察(观察时按住)
+@keybind_look_at_pie=切角观察(观察时按住)
 @keybind_look_at_strafe=横移观察(观察时按住)
 @keybind_gocodes=行动代号
 @keybind_go_a=阿尔法行动
@@ -34,7 +34,7 @@
 @keybind_stop_in_place=原地停下代号
 @keybind_stop_in_place_extra=SHIFT + %s (在路径上)
 @keybind_stop_in_place_ttip=SHIFT + <key> (在路径上)
-@keybind_trigger_stealth_fire=静默射击
+@keybind_trigger_stealth_fire=潜行射击
 @keybind_trigger_stealth_fire_extra=%s (+ SHIFT切换)
 @keybind_trigger_stealth_fire_ttip=SHIFT + <key> 切换全局静默/大声模式
 @keybind_cycle_troop_selection=选择下一个士兵
