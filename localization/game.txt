@@ -210,7 +210,7 @@
 @support_gear_lockpic_name=开锁器
 @utility_pouch_tazer_name=电击枪
 @utility_pouch_tazer_desc=<OLD!>一种可重新装填的低杀伤性武器，可以将一对电极飞入目标，然后电击他使其屈服。 目标会失去知觉，但效果会在10秒内消失，你应该用来给嫌疑人戴上手铐。 最大射程：7米
-@utility_pouch_lockpick_machine_name=撬锁机
+@utility_pouch_lockpick_machine_name=撬锁器
 @utility_pouch_lockpick_machine_desc=CIA官员受过训练，可以在几乎完全安静的情况下撬锁，但这需要时间 - 所以带上这个自动撬锁，直接开锁吧。保证在4秒或更短的时间内解锁大多数门！
 @utility_dynamic_hammer_name=动力锤
 @utility_dynamic_hammer_desc=\n “他高高举起他的锤子\n 并呼唤奥丁打个手势”\n\n你的老爸爸在通勤途中挥舞着英勇的重金属时可能看起来有点蹩脚，但是挥舞着一把大锤子上战场是有话要说的 - 即使是太空时代的锤子。 用它来一击砸开锁着的门。不，你不能用它来近战人。
