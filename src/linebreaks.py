@@ -9,7 +9,7 @@ def process_localization_text(file_path):
                 length += 1
         return length
 
-    def split_text_by_length(text, max_length=22):
+    def split_text_by_length(text, max_length=36):
         """将文本按指定长度分割，保持单词和标点完整"""
         if not text:
             return []
@@ -95,8 +95,7 @@ def process_localization_text(file_path):
 if __name__ == "__main__":
     localization_files = [
         'localization/briefings.txt',
-        'localization/tips.txt',
-        'localization/game.txt'
+        # 'localization/game.txt'
     ]
 
     for file_path in localization_files:
