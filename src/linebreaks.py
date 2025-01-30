@@ -1,6 +1,5 @@
 def process_localization_text(src_file_path, dest_file_path, max_length=40):
     def get_text_length(text):
-        """计算文本长度，中文字符计2，其他字符计1"""
         length = 0
         for char in text:
             if '\u4e00' <= char <= '\u9fff':
@@ -10,7 +9,6 @@ def process_localization_text(src_file_path, dest_file_path, max_length=40):
         return length
 
     def split_text_by_length(text, max_length=40):
-        """将文本按指定长度分割，保持单词和标点完整"""
         if not text:
             return []
 
@@ -41,7 +39,6 @@ def process_localization_text(src_file_path, dest_file_path, max_length=40):
         return result
 
     def process_value(value, max_length):
-        """处理单个本地化值"""
         parts = value.split('\\n\\n')
         processed_parts = []
         
@@ -58,7 +55,6 @@ def process_localization_text(src_file_path, dest_file_path, max_length=40):
         
         return '\\n\\n'.join(processed_parts)
 
-    # 读取源文件
     try:
         with open(src_file_path, 'r', encoding='utf-8') as file:
             lines = file.readlines()
@@ -69,15 +65,14 @@ def process_localization_text(src_file_path, dest_file_path, max_length=40):
         print(f'读取源文件时出错: {str(e)}')
         return
 
-    # 处理每一行
     new_lines = []
     for line in lines:
         line = line.strip()
-        if not line:  # 保留空行
+        if not line:
             new_lines.append('')
             continue
             
-        if '=' not in line:  # 不是本地化键值对
+        if '=' not in line:
             new_lines.append(line)
             continue
         
@@ -85,7 +80,6 @@ def process_localization_text(src_file_path, dest_file_path, max_length=40):
         new_value = process_value(value, max_length)
         new_lines.append(f'{key}={new_value}')
 
-    # 写入目标文件
     try:
         with open(dest_file_path, 'w', encoding='utf-8') as file:
             file.write('\n'.join(new_lines))
@@ -96,7 +90,6 @@ def process_localization_text(src_file_path, dest_file_path, max_length=40):
 if __name__ == "__main__":
     import os
 
-    # 定义要处理的文件列表及其最大长度
     files = {
         'game.txt': 40,
         'briefings.txt': 30
