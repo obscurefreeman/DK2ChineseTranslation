@@ -2,104 +2,104 @@
 # Campaign Descriptions / Briefings
 #
 
-@campaign_shrine=SHRINE DISTRICT
-@campaign_shrinedist_desc=A riverside working class district in Nowheraki City, it is regularly shaken by sectarian violence, small-time uprisings and attacks meant to stir trouble. Most locals lack the skills and funding to be a strategic threat, but the Blackheads Sect are also present, even if despised by many.
+@campaign_shrine=神社区
+@campaign_shrinedist_desc=这是Nowheraki的一个河畔工人区，经常发生宗派暴力、小规模起义和挑衅性袭击。大多数当地人缺乏技能和资金，构不成战略威胁，但黑头帮派也在此活动，尽管被许多人所厌恶。
 
-@campaign_northern=NORTHERN BELT
-@campaign_northernbelt_desc=The belt surrounding the Capital City is a mix of small cities, farmland and industrial areas. Various Insurgent groups hide here to build up and feed fighters and weapons into the City. The Northern area is a known Blackheads base, but regular Insurgents are also well trained and organized. 
+@campaign_northern=北部地带
+@campaign_northernbelt_desc=环绕首都的地带是小城市、农田和工业区的混合地带。各种叛军组织在这里隐藏，积蓄力量并向城市输送战士和武器。北部地区是黑头帮的已知基地，但普通叛军也训练有素且组织严密。 
 
-@campaign_op_subjugator=OPERATION SUBJUGATOR
-@campaign_op_subjugator_desc=blabblablala
+@campaign_op_subjugator=征服行动
+@campaign_op_subjugator_desc=待添加内容
 
 #
 # Various campaign-related texts that are hardcoded
 #
 
-@campaign_unlock_level=Unlocked at squad level %d
-@campaign_in_progress_title=Campaign in progress
-@campaign_in_progress_line1=Are you sure you want to start a new campaign?
-@campaign_in_progress_line2=(current campaign's progress will be reset)
-@campaign_restart_title=Restart campaign?
-@campaign_restart_line1=Are you sure you want to restart this campaign?
-@campaign_restart_line2=(current progress will be lost)
-@campaign_result_rating1=Abysmal
-@campaign_result_rating2=Poor
-@campaign_result_rating3=Satisfactory
-@campaign_result_rating4=Excellent
-@campaign_result_rating5=Outstanding
-@campaign_map_complete_status=%s (completed)
-@campaign_map_optional_status=%s (optional)
+@campaign_unlock_level=在小队等级%d时解锁
+@campaign_in_progress_title=战役进行中
+@campaign_in_progress_line1=你确定要开始新的战役吗？
+@campaign_in_progress_line2=(当前战役的进度将被重置)
+@campaign_restart_title=重新开始战役？
+@campaign_restart_line1=你确定要重新开始这个战役吗？
+@campaign_restart_line2=(当前进度将丢失)
+@campaign_result_rating1=糟糕
+@campaign_result_rating2=差劲
+@campaign_result_rating3=合格
+@campaign_result_rating4=优秀
+@campaign_result_rating5=卓越
+@campaign_map_complete_status=%s (已完成)
+@campaign_map_optional_status=%s (可选)
 
 
 #
 # UI from data/gui/campaign.xml
 #
-@menu_campaign_campaigns=CAMPAIGNS
-@menu_campaign_tod=TOUR OF DUTY
-@menu_campaign_op=OPERATION
-@menu_campaign_squad_locked_header=THIS SQUAD IS LOCKED \n IN ANOTHER CAMPAIGN
-@menu_campaign_squad_locked_paragraph=(pick a different one)
-@menu_campaign_newload=NEW/LOAD
-@menu_campaign_settings=CAMPAIGN SETTINGS
-@menu_campaign_history=HISTORY
-@menu_campaign_history_title=CAMPAIGN HISTORY
-@menu_campaign_history_playagain=PLAY AGAIN
-@menu_campaign_choosesquad=CHOOSE SQUAD
-@menu_campaign_delete_save_title=DELETE CAMPAIGN PROGRESS
-@menu_campaign_load_save=LOAD CAMPAIGN
-@menu_campaign_ironman_quit_confirmation=Quitting will count as a loss and the squad will be preserved as is in the current mission.\n\nAre you sure?
+@menu_campaign_campaigns=战役
+@menu_campaign_tod=服役期
+@menu_campaign_op=行动
+@menu_campaign_squad_locked_header=此小队已锁定\n在另一个战役中
+@menu_campaign_squad_locked_paragraph=(请选择其他小队)
+@menu_campaign_newload=新建/加载
+@menu_campaign_settings=战役设置
+@menu_campaign_history=历史记录
+@menu_campaign_history_title=战役历史
+@menu_campaign_history_playagain=再玩一次
+@menu_campaign_choosesquad=选择小队
+@menu_campaign_delete_save_title=删除战役进度
+@menu_campaign_load_save=加载战役
+@menu_campaign_ironman_quit_confirmation=退出将计为失败，小队将保持在当前任务的状态。\n\n你确定吗？
 
-@menu_campaign_ironman_mode=IRON MAN MODE
-@menu_campaign_ironman=IRON MAN
-@menu_campaign_normal_mode=NORMAL MODE
+@menu_campaign_ironman_mode=铁人模式
+@menu_campaign_ironman=铁人
+@menu_campaign_normal_mode=普通模式
 
-@menu_campaign_ironman_no_line1=UNLIMITED RESTART
-@menu_campaign_ironman_no_line1_ttip=Missions can be restarted.
-@menu_campaign_ironman_no_line2=NO PERMADEATH
-@menu_campaign_ironman_no_line2_ttip=Troopers killed in action will be revived upon campaign completion.
-@menu_campaign_ironman_no_line3=NORMAL REWARDS
-@menu_campaign_ironman_no_line3_ttip=Receive standard amount of stars and battle honors upon campaign completion.
+@menu_campaign_ironman_no_line1=无限重启
+@menu_campaign_ironman_no_line1_ttip=可以重新开始任务。
+@menu_campaign_ironman_no_line2=无永久死亡
+@menu_campaign_ironman_no_line2_ttip=阵亡的士兵将在战役完成后复活。
+@menu_campaign_ironman_no_line3=普通奖励
+@menu_campaign_ironman_no_line3_ttip=战役完成后获得标准数量的星星和战功。
 
-@menu_campaign_ironman_yes_line1=NO RESTART
-@menu_campaign_ironman_yes_line1_ttip=Missions cannot be restarted.
-@menu_campaign_ironman_yes_line2=PERMADEATH
-@menu_campaign_ironman_yes_line2_ttip=Troopers killed in action will be replaced with new recruits upon campaign completion.
-@menu_campaign_ironman_yes_line3=DOUBLE REWARDS
-@menu_campaign_ironman_yes_line3_ttip=Double the stars and battle honors upon campaign completion.
+@menu_campaign_ironman_yes_line1=不可重启
+@menu_campaign_ironman_yes_line1_ttip=任务不能重新开始。
+@menu_campaign_ironman_yes_line2=永久死亡
+@menu_campaign_ironman_yes_line2_ttip=阵亡的士兵将在战役完成后被新兵替换。
+@menu_campaign_ironman_yes_line3=双倍奖励
+@menu_campaign_ironman_yes_line3_ttip=战役完成后获得双倍的星星和战功。
 
-@menu_campaign_ironman_ttip=Stay the course! Ironman or what?
+@menu_campaign_ironman_ttip=坚持到底！是否选择铁人模式？
 
-@menu_campaign_ironman_delete_confirmation=Stopping an Iron Man campaign will not save all your dead troops from perma-death.\n\nAre you sure?
-@menu_campaign_lastplayed_time=LAST PLAYED
-@menu_campaign_missionbriefing=Mission Briefing
- # this is currently the max length allowed
-@#menu_campaign_newday_title=NEW DAY, TRY NOT TO DIE.
-@#menu_campaign_newday_title=NEW DAY, WELCOME TO HELL.
-@menu_campaign_newday_newmissions=NEW MISSIONS AVAILABLE
-@menu_campaign_newday_txt1=* %d troops available for deployment
-@menu_campaign_newday_txt2=* %d troops out of action due to wounds
-@menu_campaign_newday_txt3=* %d returned to active duty: 
-@menu_campaign_newday_txt4=* %d troops were killed in action
-@menu_campaign_newday_txt5=%s has been promoted to %s
-@menu_campaign_newday_txt6=Squad promoted to rank %d, you have %d new doctrine points available.
-@menu_campaign_newday_txt7=Promotions:
-@menu_campaign_status_report=STATUS REPORT
-@menu_campaign_day=DAY
-@menu_campaign_days_remaining=%d DAYS REMAINING
-@menu_campaign_dayreport_ttip=Current day's report
-@menu_campaign_skip_day=SKIP DAY
-@menu_campaign_skip_day_confirmation=Are you sure?
-@menu_campaign_brief_difficulty=DIFFICULTY
-@menu_campaign_brief_difficulty1=EASY
-@menu_campaign_brief_difficulty2=NORMAL
-@menu_campaign_brief_difficulty3=PRO
-@menu_campaign_brief_length=LENGTH
-@menu_campaign_brief_duration1=WEEK
-@menu_campaign_brief_duration2=FORTNIGHT
-@menu_campaign_brief_duration3=MONTH
-@menu_campaign_finished=COMPLETED
-@menu_campaign_failed=FAILED
-@menu_campaign_playagain_err=That campaign no longer exists :(
-@menu_campaign_new_troops_title=NEW TROOPS RECRUITED
-@menu_campaign_new_troops_text=Troopers that were killed in action have been replaced by new recruits!
-@menu_campaign_battlehonors_ttip=You receive one Battle Honor for every 7 stars won in a campaign (for this squad alone)
+@menu_campaign_ironman_delete_confirmation=终止铁人战役不会让你的阵亡士兵免于永久死亡。\n\n你确定吗？
+@menu_campaign_lastplayed_time=最后游玩时间
+@menu_campaign_missionbriefing=任务简报
+# 这是当前允许的最大长度
+@#menu_campaign_newday_title=新的一天，别死了。
+@#menu_campaign_newday_title=新的一天，欢迎来到地狱。
+@menu_campaign_newday_newmissions=新任务可用
+@menu_campaign_newday_txt1=* %d名士兵可以部署
+@menu_campaign_newday_txt2=* %d名士兵因受伤而无法行动
+@menu_campaign_newday_txt3=* %d名士兵重返现役：
+@menu_campaign_newday_txt4=* %d名士兵阵亡
+@menu_campaign_newday_txt5=%s已晋升为%s
+@menu_campaign_newday_txt6=小队晋升至等级%d，你有%d个新的点数可用。
+@menu_campaign_newday_txt7=晋升：
+@menu_campaign_status_report=状态报告
+@menu_campaign_day=第几天
+@menu_campaign_days_remaining=剩余%d天
+@menu_campaign_dayreport_ttip=当天报告
+@menu_campaign_skip_day=跳过一天
+@menu_campaign_skip_day_confirmation=你确定吗？
+@menu_campaign_brief_difficulty=难度
+@menu_campaign_brief_difficulty1=简单
+@menu_campaign_brief_difficulty2=普通
+@menu_campaign_brief_difficulty3=专业
+@menu_campaign_brief_length=时长
+@menu_campaign_brief_duration1=一周
+@menu_campaign_brief_duration2=两周
+@menu_campaign_brief_duration3=一个月
+@menu_campaign_finished=已完成
+@menu_campaign_failed=失败
+@menu_campaign_playagain_err=该战役不再存在 :(
+@menu_campaign_new_troops_title=新兵已招募
+@menu_campaign_new_troops_text=阵亡的士兵已被新招募的士兵替换！
+@menu_campaign_battlehonors_ttip=每在战役中获得7颗星星，你就会获得一个战功(仅限该小队)

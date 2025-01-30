@@ -1,0 +1,13 @@
+<Fonts>
+	<Font name="paragraph_3" type="hybrid" size="20" file="data/fonts/HarmonyOS_Sans_SC_Medium.ttf"/>
+	<Font name="paragraph_2" type="hybrid" size="25" file="data/fonts/HarmonyOS_Sans_SC_Medium.ttf"/>
+	<Font name="paragraph_1" type="hybrid" size="38" file="data/fonts/HarmonyOS_Sans_SC_Medium.ttf"/>
+	
+	<Font name="header_5" type="hybrid" size="30" file="data/fonts/HarmonyOS_Sans_SC_Bold.ttf"/>	
+	<Font name="header_4" type="hybrid" size="36" file="data/fonts/HarmonyOS_Sans_SC_Bold.ttf"/>	
+	<Font name="header_3" type="hybrid" size="42" file="data/fonts/HarmonyOS_Sans_SC_Bold.ttf"/>		
+	<Font name="header_2" type="hybrid" size="48" file="data/fonts/HarmonyOS_Sans_SC_Bold.ttf"/>
+	<Font name="header_1" type="hybrid" size="64" file="data/fonts/HarmonyOS_Sans_SC_Bold.ttf"/>	
+
+	<Font name="editor" type="hybrid" size="4" file="data/fonts/HarmonyOS_Sans_SC_Medium.ttf"/>
+</Fonts>

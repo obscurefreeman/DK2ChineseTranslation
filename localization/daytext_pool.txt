@@ -3,15 +3,15 @@
 #keep in format @#daytext_NAMEOFUNIT=text, where NAMEOFUNIT = the unique unit name specified in units.xml
 #
 
-@#daytext_Rangers=Give them hell, boys!
-@#daytext_Rangers=Lead the way!
-@#daytext_Rangers=Hooah!
-@#daytext_Rangers=Rangers lead the way!
+@#daytext_Rangers=让他们见鬼去吧，小伙子们！
+@#daytext_Rangers=带路！
+@#daytext_Rangers=呼！
+@#daytext_Rangers=游骑兵带路！
 
-@#daytext_CIA=Remember, you're on your own out there. 
-@#daytext_CIA=Keep to the shadows, but hit decisively. 
+@#daytext_CIA=记住，你在那里是孤身一人。
+@#daytext_CIA=躲在阴影里，但要果断出击。
 
-@#daytext_Nowheraki=Today they die. 
-@#daytext_Nowheraki=Another day in the trenches. 
+@#daytext_Nowheraki=今天他们死了。
+@#daytext_Nowheraki=又是战壕里的一天。
 
-@#squadnamedelta=Have a good one!
+@#squadnamedelta=祝你好运！

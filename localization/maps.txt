@@ -11,186 +11,186 @@
 # Single Player Mission Packs
 #
 
-@single_mispack_1_name=FNGS WELCOME
-@single_mispack_2_name=LEAD THE WAY
-@single_mispack_3_name=DO IT LIKE DELTA
-@single_mispack_4_name=NEVER SEE NEVER BE
-@single_mispack_5_name=TINY TROUBLES
-@single_mispack_5x_name=TINY TROUBLES 2
-@single_mispack_5xx_name=TINY TROUBLES 3
-@single_mispack_5xxx_name=TINY TROUBLES 4
-@single_mispack_6_name=EXTREME RESCUES
-@single_mispack_6x_name=EXTREME RESCUES 2
-@single_mispack_6xx_name=EXTREME RESCUES 3
-@single_mispack_7_name=INDIAN COUNTRY
-@single_mispack_8_name=RED EARTH
-@single_mispack_9_name=OPERATION SUBJUGATOR
-@single_mispack_10_name=BLAST FROM THE PAST
-@single_mispack_11_name=DECK OF CARDS
-@single_mispack_12_name=ALL THE WAY
-@single_mispack_13_name=GIVE NO QUARTER
-@single_mispack_undisclosed_name=<STILL CLASSIFIED>
+@single_mispack_1_name=新兵入伍
+@single_mispack_2_name=先头部队
+@single_mispack_3_name=三角洲作风
+@single_mispack_4_name=隐秘行动
+@single_mispack_5_name=小小麻烦
+@single_mispack_5x_name=小小麻烦 2
+@single_mispack_5xx_name=小小麻烦 3
+@single_mispack_5xxx_name=小小麻烦 4
+@single_mispack_6_name=极限救援
+@single_mispack_6x_name=极限救援 2
+@single_mispack_6xx_name=极限救援 3
+@single_mispack_7_name=印度领地
+@single_mispack_8_name=赤色大地
+@single_mispack_9_name=征服行动
+@single_mispack_10_name=往事重现
+@single_mispack_11_name=卡牌对决
+@single_mispack_12_name=一路向前
+@single_mispack_13_name=毫不留情
+@single_mispack_undisclosed_name=<仍属机密>
 
 #
 # Maps from Mission Packs
 #
 
-# 01 FNGs Welcome
+# 01 新兵入伍
 
-@map_pathtosuckless=PATH TO SUCK LESS
-@map_wooddoorsareeasy=WOOD DOORS ARE EASY
-@map_practicemakesperfect=ALL TOGETHER NOW
-@map_doorkickers=WHY WE FIGHT
-@map_rescueatdawn=RESCUE AT DAWN
-@map_thejihadiliveshow=THE JIHADI LIVE SHOW
-@map_killingtime=KILLING TIME
+@map_pathtosuckless=成长之路
+@map_wooddoorsareeasy=木门易破
+@map_practicemakesperfect=齐心协力
+@map_doorkickers=为何而战
+@map_rescueatdawn=黎明救援
+@map_thejihadiliveshow=圣战直播
+@map_killingtime=杀戮时刻
 
-# 02 Lead the Way
+# 02 先头部队
 
-@map_gatecrashers=GATE CRASHERS
-@map_vbiedsareus=VBIED's ARE US
-@map_aquaintlittleman=A QUAINT LITTLE MAN
-@map_fireandmaneuver=FIRE AND MANEUVER
-@map_safehousestrike=SAFE HOUSE STRIKE
-@map_alhasanhasitall=AL-HASAN HAS IT ALL
-@map_vipersnest=VIPERS NEST
-@map_exterior05=CROSSFIRE ALLEY
-@map_opbase=TUFF NUT CRACKERS
+@map_gatecrashers=破门而入
+@map_vbiedsareus=车载炸弹
+@map_aquaintlittleman=古怪小人
+@map_fireandmaneuver=火力机动
+@map_safehousestrike=安全屋突袭
+@map_alhasanhasitall=哈桑拥有一切
+@map_vipersnest=蝰蛇之巢
+@map_exterior05=交火小巷
+@map_opbase=硬果破壳
 
-# 03 Do it like Delta
+# 03 三角洲作风
 
-@map_duplex=DUPLEX
+@map_duplex=双层公寓
 
-# 04 Never See Never Bee
+# 04 隐秘行动
 
-@map_cia1=TRAINING WHEELS
-@map_breakin=BREAK AND DESTROY
-@map_compound01=SNATCH AND GRAB
-@map_countrysidejackpot=COUNTRYSIDE JACKPOT
-@map_thedealer=DEATH DEALERS 
+@map_cia1=训练轮
+@map_breakin=破门摧毁
+@map_compound01=突袭抓捕
+@map_countrysidejackpot=乡村宝藏
+@map_thedealer=死亡商人
 
-# 05 Tiny Troubles
+# 05 小小麻烦
 
-@map_noisyneighborsnuisance=NOISY NEIGHBORS NUISANCE
-@map_theview=THE VIEW
-@map_ratwork=RAT WORK
-@map_uninvitedguests=UNINVITED GUESTS
-@map_doortodoor=DOOR TO DOOR
-@map_roomservice=ROOM SERVICE
-@map_pincerspower=PINCERS POWER
-@map_lonelyabode=LONELY ABODE
-@map_extratrouble=BIG BOOM IN LITTLE CONDO
+@map_noisyneighborsnuisance=吵闹邻居
+@map_theview=绝佳视野
+@map_ratwork=鼠辈勾当
+@map_uninvitedguests=不速之客
+@map_doortodoor=逐户搜查
+@map_roomservice=客房服务
+@map_pincerspower=钳形攻势
+@map_lonelyabode=孤寂居所
+@map_extratrouble=小公寓，大爆炸
 
-@map_hotroom=HOT ROOM
-@map_knivesinthedark=KNIVES IN THE DARK
-@map_techsupport=TECH SUPPORT
-@map_traphouse=TRAP HOUSE
-@map_flatmates=FLAT MATES
-@map_scratchedcarpets=UNFAIR ODDS
-@map_islandcafe=ISLAND STRIKE
-@map_fuelstop=FUEL STOP
-@map_theritual=THE RITUAL
+@map_hotroom=炙热房间
+@map_knivesinthedark=暗夜之刃
+@map_techsupport=技术支持
+@map_traphouse=陷阱之屋
+@map_flatmates=室友
+@map_scratchedcarpets=不公平较量
+@map_islandcafe=岛屿突袭
+@map_fuelstop=加油站
+@map_theritual=仪式
 
-@map_covereddebris=AMATEUR HOUR
-@map_nightbird=NIGHT BIRD
-@map_itreallystinks=IT REALLY STINKS
-
-
-#  Deck of Aces
-
-@map_living_large=JACK OF HEARTS
-@map_large_penthouse=QUEEN OF DIAMONDS
-@map_kingofspades=KING OF SPADES
-@map_tenofclubs=TEN OF CLUBS
-@map_twoofspades=A PAIR OF EIGHTS
-@map_offlimits=KING OF HEARTS
-@map_coolpalace=THE JOKER
-
-# 06 Extreme Rescues
-
-@map_crisisonroutekilo=CRISIS ON ROUTE KILO
-@map_againsttheodds=AGAINST THE ODDS
-@map_embassysiege=EMBASSY SIEGE
-@map_maniacsmansion=MANIACS MANSION
-@map_supermarket=OUR MAN IN ACCOUNTING
-@map_exchange=THE HANDOVER
-@map_fancyrestaurant=FERGIE'S PARTY SURPRISE
-@map_largeapartment=VANTAGE POINT
-@map_cardealership=FIRE SALE 
-@map_rockyterrain=UP THE HILL
-@map_mazerunners=MAZE RUNNERS
-@map_speedislife=SPEED IS LIFE
-@map_nightcall=NIGHT CALL
-@map_doublerush=DOUBLE RUSH
-@map_hallwayhell=HALLWAY HELL
-@map_unaware=UNAWARE
-
-# 07 Indian Country
-
-@map_kamilpashamarket=KAMIL PASHA MARKET
-@map_inthesouk=IN THE SOUK
-@map_marketday=MARKET DAY
-@map_kingoftheslums=KING OF THE SLUMS
-@map_busdepot=BOMB THREAT
-@map_urbanarea=FRIENDS IN DIRE PLACES
-
-# 08 Red Earth
-
-@map_isolatedcompound=ISOLATED COMPOUND
-@map_bakr=BAKR
-
-# 09 Operation Subjugator
-
-@map_phaseisurprise=PHASE I: SURPRISE
-@map_phaseiisafeguard=PHASE II: SAFEGUARD
-@map_phaseiiisecure=PHASE III: SECURE
-@map_phaseivsmash=PHASE IV: SMASH
-
-# Give No Quarter
-
-@map_foreigninfluencers=FOREIGN INFLUENCERS
-@map_universityassault=UNIVERSITY ASSAULT
-@map_canyonambush=AMBUSHED
-@map_tinyswat=PRECIOUS CARGO
-
-# 10 Still Classified
-
-@map_museum=MUSEUM
-@map_xlsadrcity=XL SADR CITY
-@map_diamondyard=DIAMOND YARD
-
-# 11 Blast from the Past
-
-@map_beachhouse=COMMON SWEEPING
-@map_question=RHETORICAL QUESTION
-@map_isolatedcabin=OWLISH WOODS
-@map_venicehill=STORMY AFTERNOON
-@map_grandavenuebank=FAITH BEYOND WEALTH
-@map_withyourshield=TO SHIELD OR NOT TO SHIELD
-@map_docks=DOCKS AND GUNS
-@map_skypub=RACE TO THE SKY
-@map_firebasenorth=FIREBASE NORTH
+@map_covereddebris=业余时间
+@map_nightbird=夜猫子
+@map_itreallystinks=臭气熏天
 
 
-# All the Way
+#  卡牌对决
 
-@map_bridget=BRIDGE ASSAULT
-@map_tolltakers=TOLL TAKERS
-@map_raptordown=RAPTOR DOWN
+@map_living_large=红桃J
+@map_large_penthouse=方块Q
+@map_kingofspades=黑桃K
+@map_tenofclubs=梅花10
+@map_twoofspades=对8
+@map_offlimits=红桃K
+@map_coolpalace=小丑
+
+# 06 极限救援
+
+@map_crisisonroutekilo=K线危机
+@map_againsttheodds=逆势而上
+@map_embassysiege=使馆围攻
+@map_maniacsmansion=疯人宅邸
+@map_supermarket=会计先生
+@map_exchange=交接行动
+@map_fancyrestaurant=弗格的派对惊喜
+@map_largeapartment=制高点
+@map_cardealership=清仓甩卖
+@map_rockyterrain=上山之路
+@map_mazerunners=迷宫跑者
+@map_speedislife=速度即生命
+@map_nightcall=夜间来电
+@map_doublerush=双重冲锋
+@map_hallwayhell=走廊地狱
+@map_unaware=毫无察觉
+
+# 07 印度领地
+
+@map_kamilpashamarket=卡米尔帕夏市场
+@map_inthesouk=集市之中
+@map_marketday=赶集之日
+@map_kingoftheslums=贫民窟之王
+@map_busdepot=炸弹威胁
+@map_urbanarea=患难之交
+
+# 08 赤色大地
+
+@map_isolatedcompound=孤立院落
+@map_bakr=巴克尔
+
+# 09 征服行动
+
+@map_phaseisurprise=第一阶段：突袭
+@map_phaseiisafeguard=第二阶段：保护
+@map_phaseiiisecure=第三阶段：巩固
+@map_phaseivsmash=第四阶段：粉碎
+
+# 毫不留情
+
+@map_foreigninfluencers=境外势力
+@map_universityassault=大学突袭
+@map_canyonambush=遭遇伏击
+@map_tinyswat=珍贵货物
+
+# 10 绝密档案
+
+@map_museum=博物馆
+@map_xlsadrcity=XL萨德尔城
+@map_diamondyard=钻石庭院
+
+# 11 往事重现
+
+@map_beachhouse=常规清扫
+@map_question=反问
+@map_isolatedcabin=猫头鹰森林
+@map_venicehill=暴雨午后
+@map_grandavenuebank=超越财富的信仰
+@map_withyourshield=盾与不盾
+@map_docks=码头与枪
+@map_skypub=冲上云霄
+@map_firebasenorth=北方火力基地
+
+
+# 一路向前
+
+@map_bridget=桥梁突击
+@map_tolltakers=收费员
+@map_raptordown=猛禽坠落
 
 
 # SICK MAPS
 
 
-@map_blockade=BLOCKADE
-@map_apartment02hr=APARTMENT 02 HR
-@map_walledcompoundsmall=WALLED COMPUND SMALL
-@map_triplex=TRIPLEX
-@map_farmhouse01=FARMHOUSE 01
-@map_exterior01=EXTERIOR 01
-@map_exterior03=EXTERIOR 03
-@map_farmhouse02=FARMHOUSE 02
-@map_backalley=BACK ALLEY
+@map_blockade=封锁
+@map_apartment02hr=公寓 02 HR
+@map_walledcompoundsmall=围墙小院
+@map_triplex=三重
+@map_farmhouse01=农舍 01
+@map_exterior01=外墙 01
+@map_exterior03=外墙 03
+@map_farmhouse02=农舍 02
+@map_backalley=后巷
 @map_wip02=WIP 02
 @map_wip03=WIP 03
 @map_wip04=WIP 04
