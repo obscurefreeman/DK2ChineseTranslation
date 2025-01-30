@@ -1,4 +1,4 @@
-def process_localization_text(src_file_path, dest_file_path):
+def process_localization_text(src_file_path, dest_file_path, max_length=40):
     def get_text_length(text):
         """计算文本长度，中文字符计2，其他字符计1"""
         length = 0
@@ -40,7 +40,7 @@ def process_localization_text(src_file_path, dest_file_path):
             
         return result
 
-    def process_value(value):
+    def process_value(value, max_length):
         """处理单个本地化值"""
         parts = value.split('\\n\\n')
         processed_parts = []
@@ -51,7 +51,7 @@ def process_localization_text(src_file_path, dest_file_path):
             
             for subpart in subparts:
                 if subpart.strip():
-                    lines = split_text_by_length(subpart)
+                    lines = split_text_by_length(subpart, max_length)
                     processed_subparts.extend(lines)
             
             processed_parts.append('\\n'.join(processed_subparts))
@@ -82,7 +82,7 @@ def process_localization_text(src_file_path, dest_file_path):
             continue
         
         key, value = line.split('=', 1)
-        new_value = process_value(value)
+        new_value = process_value(value, max_length)
         new_lines.append(f'{key}={new_value}')
 
     # 写入目标文件
@@ -96,25 +96,20 @@ def process_localization_text(src_file_path, dest_file_path):
 if __name__ == "__main__":
     import os
 
-    # 定义要处理的文件列表
-    files = [
-        'game.txt',
-        'menu.txt',
-        'squad_name_pool.txt',
-        'rmg_opname_pool.txt',
-        'tips.txt',
-        'campaigns.txt',
-        'key_binding.txt'
-    ]
+    # 定义要处理的文件列表及其最大长度
+    files = {
+        'game.txt': 40,
+        'briefings.txt': 30
+    }
 
-    for filename in files:
+    for filename, max_length in files.items():
         src_path = os.path.join('src\localization', filename)
         dest_path = os.path.join('localization', filename)
         
         try:
             if os.path.exists(src_path):
                 print(f'处理文件: {filename}')
-                process_localization_text(src_path, dest_path)
+                process_localization_text(src_path, dest_path, max_length)
             else:
                 print(f'跳过不存在的源文件: {src_path}')
         except Exception as e:
