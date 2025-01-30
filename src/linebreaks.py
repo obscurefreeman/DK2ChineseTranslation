@@ -1,8 +1,10 @@
+import string
+
 def process_localization_text(src_file_path, dest_file_path, max_length=40):
     def get_text_length(text):
         length = 0
         for char in text:
-            if '\u4e00' <= char <= '\u9fff':
+            if '\u4e00' <= char <= '\u9fff' or char in string.punctuation:
                 length += 2
             else:
                 length += 1
@@ -21,7 +23,7 @@ def process_localization_text(src_file_path, dest_file_path, max_length=40):
         
         while i < len(chars):
             char = chars[i]
-            char_length = 2 if '\u4e00' <= char <= '\u9fff' else 1
+            char_length = 2 if '\u4e00' <= char <= '\u9fff' or char in string.punctuation else 1
             
             if current_length + char_length > max_length and current_line:
                 result.append(current_line)
@@ -92,7 +94,7 @@ if __name__ == "__main__":
 
     files = {
         'game.txt': 40,
-        'briefings.txt': 30
+        'briefings.txt': 34
     }
 
     for filename, max_length in files.items():
